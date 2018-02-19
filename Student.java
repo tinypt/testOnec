@@ -10,13 +10,29 @@ public class Student extends Person{
     public static enum Status{freshman, sophomore, junior, senior};
     Status status;
     
+    
+    
     @Override
     public String getSignature(){
         String result;
         result= super.getName().substring(0, 2);
-        result += "-"+super.getName().substring(super.getName().length()-2);
+        result += "-"+   super.getName().substring(super.getName().length()-2);
         return result.toUpperCase();
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        boolean result = false;
+    if(obj != null && obj instanceof Student){
+    if(super.getName() == ((Student)obj).getName()){
+        result = true;
+    }
+    
+}
+    return result;
+    }
+    
+    
     
     public Student(String name, Status status) {
         super(name);
