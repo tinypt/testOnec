@@ -1,0 +1,36 @@
+#detail{
+	text-indent: 2.5em
+}
+
+#header{
+	text-align: center;
+	background-image:url("./Images/Hilton Hua Hin-Pool Down.jpg");
+	background-size: 100%;
+}
+
+#header p{
+	font-size: 30px;
+	background-color: #008B8B;
+}
+
+#nav{
+	background-color: #87CEFA ;
+	height: 30px;
+	text-align: right;
+}
+#nav a:link {
+    color: green;
+    text-decoration: none;
+}
+#nav a:visited {
+    color: #191970 ;
+    text-decoration: blink;
+}
+#nav a:hover {
+    color: #FF8C00;
+    text-decoration: underline;
+}
+#nav a:active {
+    color: yellow;
+    text-decoration: underline;
+}
