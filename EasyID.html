@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>สมัคร Easy ID เล่นได้ทันที</title>
+	<style type="text/css">
+		.part1{
+			font-style: italic;
+			color: white;
+		}
+		.part2{
+			font-style: italic;
+			color: yellow;
+		}
+		.head{
+			background: -webkit-linear-gradient(#8bc34a, #428845);
+			border-radius: 10px;
+			font-family: sans-serif;
+			width: 430px;
+			text-align: center;
+			text-shadow: -1px 0 black, 0 2px black,
+      2px 0 black, 0 -1px black
+
+		}
+		#myform{
+			border-radius: 10px;
+			width: 500px;
+			background-color: black;
+		}
+		sup{
+			color: orange;
+		}
+		span{
+			color: #8bc34a;
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body>
+<div id="myform">
+<div class="head">
+	<h1 class="part1">สมัคร&nbsp
+<span class="part2">Easy ID
+</span> &nbspเล่นได้ทันที!</h1>
+</div>
+<form action="https://www.w3schools.com/action_page.php">
+	<span>VISA ID</span><sup>*</sup>
+	<input type="text" name="id" autofocus autocomplete="off" required pattern="[a-z0-9]{6,}"><br>
+	<span>Password</span><sup>*</sup>
+	<input type="password" name="pass" required pattern="[a-zA-Z0-9]{6,10}"><br>
+	<span>Retype-Password</span><sup>*</sup>
+	<input type="password" name="repass" required pattern="[a-zA-Z0-9]{6,10}"><br>
+	<span>เพศ</span><sup>*</sup>
+	<input type="radio" name="gender" value="m" required><span>ชาย</span>
+	<input type="radio" name="gender" value="f" required><span>หญิง</span><br>
+	<span>โทรศัพท์</span><sup>*</sup>
+	<input type="tel" name="tel" required autocomplete="on"><br>
+	<span>อีเมล</span><sup>*</sup>
+	<input type="email" name="emailaddress" required autocomplete="on"><br>
+
+
+
+
+
+</form>
+</div>
+</body>
+</html>
